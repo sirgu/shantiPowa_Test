@@ -5,7 +5,7 @@ Index of contents:
 00. Libraries
 01. Generic styles
 02. Typography
-03. Parallax images 
+03. Parallax images
 04. Menu
 05. Header
 06. Footer
@@ -127,7 +127,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 0.8rem;
 }
 
-/* 03. Parallax images 
+/* 03. Parallax images
 ================================================================ */
 
 .parallax {
@@ -287,22 +287,22 @@ h1, h2, h3, h4, h5, h6 {
 /* 07. Sections
 ================================================================ */
 
-@keyframes mbarmnu {  
-	0% { height: 20px;}  
+@keyframes mbarmnu {
+	0% { height: 20px;}
 	50% { height: 5px; }
-	100% { height: 20px; }  
+	100% { height: 20px; }
 }
-@keyframes mbarmnuB {  
-	0% { height: 7px;}  
-	25% { height: 18px;}  
+@keyframes mbarmnuB {
+	0% { height: 7px;}
+	25% { height: 18px;}
 	50% { height: 10px; }
 	75% { height: 20px; }
-	100% { height: 3px; }  
+	100% { height: 3px; }
 }
 
 .section {
 	padding: 0;
-	position: relative; 
+	position: relative;
 	z-index: 2;
 	.qt-section-title {
 		text-align: center;
@@ -338,14 +338,14 @@ h1, h2, h3, h4, h5, h6 {
 				margin: 0 0 0 -11px;
 				animation: mbarmnu 0.5s forwards;
 				animation-duration: 1.8s;
-				animation-iteration-count: infinite; 
+				animation-iteration-count: infinite;
 				transition: opacity 0.2s;
 				transition-delay:0.3s;
 			}
 			&::after {
 				animation: mbarmnuB 0.5s forwards;
 				animation-duration: 1.4s;
-				animation-iteration-count: infinite; 
+				animation-iteration-count: infinite;
 				margin: 0 0 0 -5px;
 			}
 		}
@@ -405,8 +405,8 @@ h1, h2, h3, h4, h5, h6 {
 			}
 		}
 	}
-	
- 
+
+
 	&.section-booking {
 		background-color: #121212;
 		color: white;
@@ -554,7 +554,7 @@ h1, h2, h3, h4, h5, h6 {
 		    height: 100px;
 		    line-height: 100px;
 		    text-align: center;
-		   
+
 	    }
 	    .prev {
 	    	position: absolute;

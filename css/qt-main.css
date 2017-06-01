@@ -4923,7 +4923,7 @@ h1, h2, h3, h4, h5, h6 {
   .section.section-music {
     background-color: #343434;
     color: #eceff1;
-    z-index: 14;
+    z-index: 2;
     padding-bottom: 70px; }
   .section.section-photos {
     z-index: 13; }
@@ -4937,9 +4937,9 @@ h1, h2, h3, h4, h5, h6 {
   .section.section-bio {
     height: auto;
     color: white;
-    z-index: 1; }
+    z-index: 8; }
     .section.section-bio .parallax img {
-      position: fixed;
+      position: relative;
       z-index: -1; }
     .section.section-bio .content {
       width: 90%;
@@ -4947,10 +4947,12 @@ h1, h2, h3, h4, h5, h6 {
       padding: 40px 70px 70px 70px;
       background: white;
       color: #232323;
+      opacity: 0.95;
       margin: 30px auto 80px auto;
       box-shadow: 0 0 18px rgba(0, 0, 0, 0.8); }
       .section.section-bio .content .decor1, .section.section-bio .content .decor2 {
-        opacity: 0.4; }
+        opacity: 0.5;
+        color: #ed4a12; }
       .section.section-bio .content h2, .section.section-bio .content h3, .section.section-bio .content h4, .section.section-bio .content h5 {
         margin: 40px 0 20px 0;
         padding-bottom: 14px;
@@ -5036,11 +5038,11 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding-bottom: 80px; }
   .qt-gridstackCarousel-container .qt-gridstackCarousel {
-    height: 360px; }
+    height: 500px; }
     .qt-gridstackCarousel-container .qt-gridstackCarousel .carousel-item {
-      width: 300px;
-      height: 340px;
-      overflow: hidden;
+      width: 400px;
+      height: 440px;
+      overflow: inherit;
       max-width: 100%; }
       .qt-gridstackCarousel-container .qt-gridstackCarousel .carousel-item img {
         width: 100%;
@@ -5049,15 +5051,15 @@ h1, h2, h3, h4, h5, h6 {
       .qt-gridstackCarousel-container .qt-gridstackCarousel .carousel-item a {
         display: block;
         position: absolute;
-        z-index: 30;
+        z-index: 10;
         top: 120%;
         left: 50%;
         width: 2.89rem;
         height: 2.89rem;
         margin-left: -1.445rem;
         margin-top: -1.445rem;
-        transition: top 0.4s ease;
-        transition-delay: 0.1s;
+        transition: top 0.3s ease;
+        transition-delay: 0.9s;
         cursor: pointer;
         padding: 0.595rem;
         font-size: 1.7rem;
@@ -5076,7 +5078,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 50%;
     margin-top: -50px;
     height: 0;
-    z-index: 500; }
+    z-index: 50; }
     .qt-gridstackCarousel-container .nav a {
       cursor: pointer;
       font-size: 2.89rem;
@@ -5119,8 +5121,8 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   color: transparent;
   font-size: 0;
-  opacity: 0.3;
-  transition: opacity 0.3s; }
+  opacity: 0.4;
+  transition: opacity 0.2s; }
   .slick-slider .slick-arrow::after {
     font-size: 1.7rem;
     content: "\e875";
